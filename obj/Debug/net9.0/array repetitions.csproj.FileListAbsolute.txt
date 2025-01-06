@@ -1,0 +1,15 @@
+/home/operatorio/Документы/meCodes/array repetitions/bin/Debug/net9.0/array repetitions
+/home/operatorio/Документы/meCodes/array repetitions/bin/Debug/net9.0/array repetitions.deps.json
+/home/operatorio/Документы/meCodes/array repetitions/bin/Debug/net9.0/array repetitions.runtimeconfig.json
+/home/operatorio/Документы/meCodes/array repetitions/bin/Debug/net9.0/array repetitions.dll
+/home/operatorio/Документы/meCodes/array repetitions/bin/Debug/net9.0/array repetitions.pdb
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.GeneratedMSBuildEditorConfig.editorconfig
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.AssemblyInfoInputs.cache
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.AssemblyInfo.cs
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.csproj.CoreCompileInputs.cache
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.sourcelink.json
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.dll
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/refint/array repetitions.dll
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.pdb
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/array repetitions.genruntimeconfig.cache
+/home/operatorio/Документы/meCodes/array repetitions/obj/Debug/net9.0/ref/array repetitions.dll
