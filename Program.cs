@@ -33,13 +33,10 @@ class Program
             {
                 currentCount++;
             }
-            else
+            else if (currentCount > maxCount)
             {
-                if (currentCount > maxCount)
-                {
-                    maxCount = currentCount;
-                    mostFrequentNumber = numbers[i - 1];
-                }
+                maxCount = currentCount;
+                mostFrequentNumber = numbers[i - 1];
                 currentCount = 1;
             }
         }
