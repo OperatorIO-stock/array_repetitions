@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/operatorio/Документы/meCodes/array repetitions/array repetitions.csproj",
+      "projectUniqueName": "/home/operatorio/Документы/meCodes/array_repetitions/array_repetitions/array repetitions.csproj",
       "projectName": "array repetitions",
-      "projectPath": "/home/operatorio/Документы/meCodes/array repetitions/array repetitions.csproj",
+      "projectPath": "/home/operatorio/Документы/meCodes/array_repetitions/array_repetitions/array repetitions.csproj",
       "packagesPath": "/home/operatorio/.nuget/packages/",
-      "outputPath": "/home/operatorio/Документы/meCodes/array repetitions/obj/",
+      "outputPath": "/home/operatorio/Документы/meCodes/array_repetitions/array_repetitions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/operatorio/.nuget/NuGet/NuGet.Config"

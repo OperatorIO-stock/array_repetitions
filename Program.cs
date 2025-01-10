@@ -2,48 +2,55 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        int minRangeNumbers = 1;
-        int maxRangeNumbers = 31;
-        int mostFrequentNumber = 0;
-        int maxCount = 0;
+        int minRangeNumber = 1;
+        int maxRangeNumber = 11;
+
+        int mostFrequentNumber;
+        int maxCount = 1;
+        int currentCount = 1;
 
         Random random = new Random();
+        int[] numbers = new int[15];
 
-        int[] numbers = new int [15];
+        int index = 0;
 
-        for (int i = 0; i < numbers.Length; i++)
+        foreach (var _ in numbers)
         {
-            numbers[i] = random.Next(minRangeNumbers, maxRangeNumbers);
-            Console.Write($"{numbers[i]} ");
+            numbers[index] = random.Next(minRangeNumber, maxRangeNumber);
+            index++;
         }
 
-        Console.WriteLine("\n");
+        Console.WriteLine("Сгенерированный массив чисел:");
+        Console.WriteLine(string.Join(" ", numbers));
 
-        Dictionary<int, int> frequency = [];
+        mostFrequentNumber = numbers[0];
 
-        foreach (var number in numbers)
+        for (int i = 1; i < numbers.Length; i++)
         {
-            if (frequency.ContainsKey(number))
+            if (numbers[i] == numbers[i - 1])
             {
-                frequency[number]++;
+                currentCount++;
             }
             else
             {
-                frequency[number] = 1;
+                if (currentCount > maxCount)
+                {
+                    maxCount = currentCount;
+                    mostFrequentNumber = numbers[i - 1];
+                }
+                currentCount = 1;
             }
         }
 
-        foreach (var i in frequency)
+        if (currentCount > maxCount)
         {
-            if (i.Value > maxCount)
-            {
-                maxCount = i.Value;
-                mostFrequentNumber = i.Key;
-            }
+            maxCount = currentCount;
+            mostFrequentNumber = numbers[numbers.Length - 1];
         }
 
-        Console.WriteLine($"\nСамое повторяющееся число: {mostFrequentNumber}, повторяется {maxCount} раз(а).");
+        Console.WriteLine($"\nЧисло, которое повторяется больше всего раз подряд: {mostFrequentNumber}, " +
+                          $"количество повторений: {maxCount}.");
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("array repetitions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23fda5fe02c0add08c156a06da2136cf903fe357")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5848260f8ac45e9432ef6f2ccb9e8f7b62ff6e48")]
 [assembly: System.Reflection.AssemblyProductAttribute("array repetitions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("array repetitions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
